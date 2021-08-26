@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-14T17:08:17.545Z",
+        "start_timestamp": "2021-08-26T16:18:05.800Z",
         "line": 12,
         "name": "Validate Brand API data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25681235,
+              "duration": 82978860,
               "status": "passed"
             },
             "line": 6,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 5318381622,
+              "duration": 9059217708,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 6826777,
+              "duration": 10397962,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 855973152,
+              "duration": 1983667740,
               "status": "passed"
             },
             "line": 9,
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-14T17:08:23.813Z",
+        "start_timestamp": "2021-08-26T16:18:17.093Z",
         "line": 13,
         "name": "Validate Brand API data",
         "description": "",
@@ -99,7 +99,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5221431,
+              "duration": 2021862,
               "status": "passed"
             },
             "line": 6,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 351896287,
+              "duration": 1674955816,
               "status": "passed"
             },
             "line": 7,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 458426,
+              "duration": 398130,
               "status": "passed"
             },
             "line": 8,
@@ -148,7 +148,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected [APPP] but found [APP]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertEquals(Assert.java:125)\r\n\tat org.testng.Assert.assertEquals(Assert.java:178)\r\n\tat org.testng.Assert.assertEquals(Assert.java:188)\r\n\tat stepDefinations.StepDefination.api_response_returns_attribute_has_a_value(StepDefination.java:164)\r\n\tat ✽.api response returns attribute \"scope\" has a value \"APPP\"(file:src/test/java/features/placeInsertion.feature:9)\r\n",
-              "duration": 83557023,
+              "duration": 58560006,
               "status": "failed"
             },
             "line": 9,
@@ -187,7 +187,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-14T17:08:24.517Z",
+        "start_timestamp": "2021-08-26T16:18:18.874Z",
         "line": 10,
         "name": "Verify if Place is being Succesfully added using AddPlaceAPI",
         "description": "",
@@ -197,7 +197,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1630952102,
+              "duration": 2981648012,
               "status": "passed"
             },
             "line": 4,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 483228,
+              "duration": 185594,
               "status": "passed"
             },
             "line": 5,
@@ -241,7 +241,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-14T17:08:26.167Z",
+        "start_timestamp": "2021-08-26T16:18:21.892Z",
         "line": 31,
         "name": "Validate getparty search pagination response",
         "description": "",
@@ -251,7 +251,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2019295,
+              "duration": 7286914,
               "status": "passed"
             },
             "line": 25,
@@ -269,7 +269,7 @@
           },
           {
             "result": {
-              "duration": 792322142,
+              "duration": 418290152,
               "status": "passed"
             },
             "line": 26,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 389148,
+              "duration": 338260,
               "status": "passed"
             },
             "line": 27,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 43452492,
+              "duration": 28385176,
               "status": "passed"
             },
             "line": 28,
@@ -327,7 +327,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-14T17:08:27.056Z",
+        "start_timestamp": "2021-08-26T16:18:22.353Z",
         "line": 32,
         "name": "Validate getparty search pagination response",
         "description": "",
@@ -337,7 +337,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2694105,
+              "duration": 861686,
               "status": "passed"
             },
             "line": 25,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 1375437203,
+              "duration": 348920796,
               "status": "passed"
             },
             "line": 26,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 503328,
+              "duration": 358786,
               "status": "passed"
             },
             "line": 27,
@@ -385,7 +385,7 @@
           },
           {
             "result": {
-              "duration": 26957727,
+              "duration": 41558066,
               "status": "passed"
             },
             "line": 28,
