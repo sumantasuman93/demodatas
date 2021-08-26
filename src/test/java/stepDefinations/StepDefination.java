@@ -98,6 +98,7 @@ public void add_Place_Payload_with(String Status, String language, String addres
 @When("user calls http requestdata")
 public void user_calls_http_requestdata() {
 	System.out.println("Thanks for this");
+	System.out.println("Thanks");
 }
 
 @Given("Add Place Payload with the {string}")
