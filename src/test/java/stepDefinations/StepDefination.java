@@ -92,7 +92,7 @@ public void add_Place_Payload_with(String Status, String language, String addres
 	System.out.println("Thanks");
 	Assert.assertEquals(StatusValue,Status);
 //	Assert.assertEquals(PlaceID, "OK");
-	System.out.println("****** Thanks for using git demo project *********");
+	System.out.println("****** Thanks for using git demo project");
 	
 	}
 @When("user calls http requestdata")
