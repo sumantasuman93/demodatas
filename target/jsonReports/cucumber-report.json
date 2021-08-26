@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T17:08:17.545Z",
+        "line": 12,
+        "name": "Validate Brand API data",
+        "description": "",
+        "id": "validating-brand-api;validate-brand-api-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25681235,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the input request \"Basebody.json\" payload",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Basebody.json\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.the_input_request_payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5318381622,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Brand api is invoke via POST operation",
+            "match": {
+              "location": "StepDefination.brand_api_is_invoke_via_POST_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6826777,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "api response return \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.api_response_return(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 855973152,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "api response returns attribute \"status\" has a value \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefination.api_response_returns_attribute_has_a_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NUO40"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-14T17:08:23.813Z",
+        "line": 13,
+        "name": "Validate Brand API data",
+        "description": "",
+        "id": "validating-brand-api;validate-brand-api-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5221431,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the input request \"Basebody.json\" payload",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Basebody.json\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.the_input_request_payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 351896287,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Brand api is invoke via POST operation",
+            "match": {
+              "location": "StepDefination.brand_api_is_invoke_via_POST_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 458426,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "api response return \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.api_response_return(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [APPP] but found [APP]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertEquals(Assert.java:125)\r\n\tat org.testng.Assert.assertEquals(Assert.java:178)\r\n\tat org.testng.Assert.assertEquals(Assert.java:188)\r\n\tat stepDefinations.StepDefination.api_response_returns_attribute_has_a_value(StepDefination.java:164)\r\n\tat ✽.api response returns attribute \"scope\" has a value \"APPP\"(file:src/test/java/features/placeInsertion.feature:9)\r\n",
+              "duration": 83557023,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "api response returns attribute \"scope\" has a value \"APPP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"APPP\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefination.api_response_returns_attribute_has_a_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NUO40"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Brand API",
+    "description": "",
+    "id": "validating-brand-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeInsertion.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T17:08:24.517Z",
+        "line": 10,
+        "name": "Verify if Place is being Succesfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-api-s;verify-if-place-is-being-succesfully-added-using-addplaceapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630952102,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add Place Payload with \"OK\"  \"English\" \"World cross center\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OK\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"English\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"World cross center\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefination.add_Place_Payload_with(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 483228,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls http requestdata",
+            "match": {
+              "location": "StepDefination.user_calls_http_requestdata()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-14T17:08:26.167Z",
+        "line": 31,
+        "name": "Validate getparty search pagination response",
+        "description": "",
+        "id": "validating-place-api-s;validate-getparty-search-pagination-response;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2019295,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the input request \"Basebody.json\" payload",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Basebody.json\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.the_input_request_payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 792322142,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Brand api is invoke via POST operation",
+            "match": {
+              "location": "StepDefination.brand_api_is_invoke_via_POST_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 389148,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "api response return \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.api_response_return(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43452492,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "api response returns attribute \"status\" has a value \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefination.api_response_returns_attribute_has_a_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Funtionaltest1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-14T17:08:27.056Z",
+        "line": 32,
+        "name": "Validate getparty search pagination response",
+        "description": "",
+        "id": "validating-place-api-s;validate-getparty-search-pagination-response;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2694105,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the input request \"Basebody.json\" payload",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Basebody.json\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.the_input_request_payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1375437203,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Brand api is invoke via POST operation",
+            "match": {
+              "location": "StepDefination.brand_api_is_invoke_via_POST_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503328,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "api response return \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.api_response_return(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26957727,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "api response returns attribute \"scope\" has a value \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefination.api_response_returns_attribute_has_a_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Funtionaltest1"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API\u0027s",
+    "description": "",
+    "id": "validating-place-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]
